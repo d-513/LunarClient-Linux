@@ -1,0 +1,11 @@
+echo "Adding repostitory for updates"
+
+curl -s "https://lunar.deb.d513.space/KEY.gpg" | sudo apt-key add -
+curl -s -o /etc/apt/sources.list.d/lunarclient.list "https://lunar.deb.d513.space/lunarclient.list"
+
+echo "Downloading Lunar Client... Please wait"
+
+curl -s https://launcherupdates.lunarclientcdn.com/latest-linux.yml -o /tmp/lunar-latest-linux.yml
+LVERSION=$(cat /tmp/lunar-latest-linux.yml | grep "version: " | cut -c 10-)
+curl -s "https://launcherupdates.lunarclientcdn.com/Lunar%20Client-$LVERSION.AppImage" -o /usr/bin/lunarclient
+rm /tmp/lunar-latest-linux.yml

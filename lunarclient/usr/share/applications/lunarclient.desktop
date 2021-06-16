@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Lunar Client
+Exec=lunarclient
+Icon=/usr/share/pixmaps/lunar-logo.png
+Type=Application
+Categories=Game;

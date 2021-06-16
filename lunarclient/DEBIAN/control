@@ -1,0 +1,9 @@
+Package: lunarclient
+Version: 1.0.2
+Section: development
+Priority: optional
+Depends: grep
+Architecture: all
+Maintainer: dada513@protonmail.com
+Description: Lunar Client Debian
+ A Minecraft modpack
