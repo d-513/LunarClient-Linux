@@ -1,13 +1,13 @@
 Package: lunarclient
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: dada513@protonmail.com
 Depends: grep
 Filename: ./lunarclient.deb
-Size: 15100
-MD5sum: 7eaa7008adc7378576048546593516c8
-SHA1: b7a8f3f10e2bcc603cd9bf507bf526c8f0010923
-SHA256: ed0c297636bffcb516d6c5d36df4b7fa5099cb88b1d28613515da3c10cd3ae46
+Size: 15104
+MD5sum: 04588e90937fe0c99bbe4f068ee545e5
+SHA1: 15a902912a439b8553010b8c21fcb944f466b2e4
+SHA256: 8b4514338ed3163a20199c610d05cf9e06a67048ea9368cff839f74e8458e39a
 Section: development
 Priority: optional
 Description: Lunar Client Debian
